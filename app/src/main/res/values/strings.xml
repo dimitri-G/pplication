@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">pplication</string>
+    <string name="prompt_email">手机号</string>
+    <string name="prompt_password">验证码</string>
+    <string name="prompt_email1">手机/邮箱/用户名</string>
+    <string name="prompt_password1">密码</string>
+    <string name="prompt_email2">昵称</string>
+    <string name="prompt_email3">密码</string>
+    <string name="prompt_email4">性别</string>
+    <string name="prompt_email5">年龄</string>
+    <string name="prompt_email6">地址</string>
+    <string name="prompt_email7">电话</string>
+    <string name="prompt_email8">邮箱</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

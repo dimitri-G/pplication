@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="开饭啦"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".CommentActivity"></activity>
+        <activity android:name=".UpdateUserActivity" />
+        <activity android:name=".HealthWeekActivity" />
+        <activity android:name=".HealthDetailActivity" />
+        <activity android:name=".MainHealthActivity" />
+        <activity android:name=".UserComplainActivity" />
+        <activity android:name=".UserCommitActivity" />
+        <activity android:name=".OrderDetailActivity" />
+        <activity android:name=".MainOrderActivity" />
+        <activity
+            android:name=".SearchResultActivity"
+            android:launchMode="singleTask" />
+        <activity android:name="com.example.shoppingcart.CheckoutSuccessActivity" />
+        <activity android:name=".testActivity2" />
+        <activity android:name=".MainShopActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".PassLoginActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".LoginMainActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".ForgetPassActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".SearchActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.shoppingcart.ShoppingCartActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MyActivity"
+            android:launchMode="singleTask" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

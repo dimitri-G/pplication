@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5">
+
+    <!-- 首先定义标题栏 -->
+    <RelativeLayout
+        android:id="@+id/biaoti"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="#3399ff">
+
+        <Button
+            android:id="@+id/button_backward"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:drawablePadding="6dp"
+            android:background="#3399ff"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:text="返回"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="146dp"
+            android:layout_height="52dp"
+            android:layout_alignBottom="@+id/button_backward"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginBottom="-11dp"
+            android:layout_toStartOf="@+id/button_forward"
+            android:layout_toEndOf="@+id/button_backward"
+            android:background="#3399ff"
+            android:text="修改登录密码流程"
+            android:textColor="#ffffff"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="500dp"
+        android:layout_height="679dp"
+        android:layout_alignEnd="@+id/biaoti"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-109dp"
+        android:src="@drawable/img4" />
+
+
+</RelativeLayout>

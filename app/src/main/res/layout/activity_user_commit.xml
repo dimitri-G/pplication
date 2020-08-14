@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserCommitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="您的评价会给予我们鼓励与帮助"
+            android:textSize="36sp" />
+
+        <Button
+            android:id="@+id/btn_evalution"
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:onClick="showSingleAlertDialog"
+            android:text="请打个分吧" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="请写下您所想吐槽建议的内容"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/advice"
+            android:layout_width="match_parent"
+            android:layout_height="248dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="提交评价" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
